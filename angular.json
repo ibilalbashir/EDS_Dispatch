@@ -25,7 +25,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./jquery.jexcel.js",
+              "./jquery.csv.min.js"
+            ]
           },
           "configurations": {
             "production": {
